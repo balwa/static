@@ -1,0 +1,24 @@
+title: My Site
+email: ""
+description: >-
+  A personal site built with Jekyll and hosted on GitHub Pages.
+baseurl: "/static"
+url: "https://balwa.github.io"
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
